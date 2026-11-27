@@ -1,0 +1,9 @@
+[project]
+name = "production-opti"
+version = "0.1.0"
+description = "Decision-support agent for food production optimization"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.scripts]
+production-opti = "production_opti.__main__:main"
